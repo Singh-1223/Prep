@@ -88,3 +88,26 @@ Why do hydration mismatches occur in SSR React apps?
 
 
 10. How does virtual DOM reconciliation decide which elements to re-render?
+
+
+
+
+
+1. What is the Critical Rendering Path and how can you optimize it?
+→ Understanding how browsers parse, render, and block content directly impacts performance metrics like LCP and FCP.
+
+
+2. What’s the difference between Reflow and Repaint — and how can you minimize layout thrashing?
+→ Every DOM measurement and write operation can trigger expensive recalculations. Knowing how to batch them is key to silky-smooth UI.
+
+
+3. How does Garbage Collection work in JavaScript (mark-and-sweep)?
+→ Interviewers want to know if you understand why memory leaks happen — not just how to clear them.
+
+
+4. Explain SameSite cookies and how they affect authentication in SPAs.
+→ This topic merges frontend, browser, and security — a perfect test of holistic understanding.
+
+
+5. What are Service Workers and how do they enable offline caching (stale-while-revalidate pattern)?
+→ Mastering this shows you understand the line between frontend development and progressive web app engineering.
