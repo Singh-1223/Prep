@@ -1,1 +1,102 @@
-hello
+Design a Modal component with focus trap, keyboard navigation, and portal mounting.
+
+Design a Toast/Notification system with queuing, stacking, and auto-dismiss.
+
+Design a Data Table with pagination, sorting, filtering, and column resizing.
+
+Design a File Uploader with chunking, retry, and progress tracking.
+
+Design a Virtualized List that can handle thousands of rows efficiently.
+
+
+These aren’t just about React code, they test if you can think about:
+
+Accessibility (ARIA, focus management)
+
+Performance (virtualization, batching)
+
+State & data flow (props vs context vs store)
+
+Trade-offs in UX vs complexity
+
+
+
+Event delegation
+Closures and how lexical scope works
+Promises, async/await, and handling async logic in JavaScript
+React’s Virtual DOM and how reconciliation works
+CSS specificity and how inheritance actually plays out
+Debouncing vs throttling (yes, there’s a difference!)
+Making things work across browsers
+Performance tuning and understanding Core Web Vitals
+Accessibility basics (a11y matters!)
+Web security essentials like XSS, CSRF, and the usual suspects
+
+
+1. Flatten a deeply nested object to dot paths and unflatten back
+2. Implement cancellable fetch with an AbortController wrapper
+3. Generate valid parentheses combinations for n pairs
+4. Implement once(fn) that runs a function only once
+5. Build a simple LRU cache
+6. Given a stream of integers, return median at each step (Hint: Two heaps)
+7. Convert snake_case → camelCase recursively (with arrays)
+8. Implement set(obj, path, value) to create nested paths
+9. Write a deep-equal function that tolerates order-insensitive arrays of primitives
+10. Implement infinite scroll fetching batches, handling race conditions.
+
+
+
+
+1. What is React?
+ 2. What is useMemo ?
+ 3. What are the features of React ?
+ 4. What is JSX ?
+ 5. What is DOM ?
+ 6. What is Virtual Dom ?
+ 7. What is component life cycle of React class component ?
+ 8. What are fragments in react ?
+ 9. What are props in react ?
+ 10. What are synthetic events in react ?
+ 11. What are the difference between Package.json and Package.lock.json ?
+ 12. What are the differences between client side and server side rendering ?
+ 13. What is state in Reactjs?
+ 14. What are props ?
+ 15. What are the differences between State and Props in react ?
+ 16. What is props drilling ?
+ 17. What are the disadvantages of props drilling and How we can avoid props drilling ?
+ 18. What are Pure components in React ?
+ 19. Whatare Ref’s in React?
+ 20. What is meant by forward ref ?
+ 21. What are Error boundaries ?
+ 22. What are Higher order components in react ?
+ 23. What are the differences between controlled and uncontrolled components ? 
+ 24. What is useCallback ?
+ 25. What are the differences between useMemo and useCallback ?
+ 26. What are keys in React ?
+ 27. What is Lazy loading in React ?
+ 28. What is suspense in React ?
+ 29. What are custom hooks ?
+ 30. What is useReducer hook ?
+ 31. What are Portals in react ?
+ 32. What is context in react ?
+ 33. Practical question: Give an example of context api usage ?
+ 34. What is the purpose of callback function as an argument of setState()?
+ 35. Practical question: create a custom hook for increment/decrement counter ?
+ 36. Which lifecycle hooks in class component are replaced with useEffect in functional components ?
+ 37. What is Strict mode in react ?
+ 38. What are the different ways to pass data from child component to parent component in react ?
+ 39. Practical question: How to send data from child to parent using callback functions ?
+ 40. Practical question: How to send the data from child component to parent using useRef ?
+ 41. How do you optimize your react application ?
+ 42. How would you consume a RESTful JSON API in reactjs?
+ 43.different design patterns used in react?
+ 44. context api vs redux
+ 45. prop types in react(How to apply validation on props in react)
+ 46. What are React Mixins ?
+ 47. what are the different hooks you have used ?
+ 48. What are render props in react ?
+ 49. What are the different types of exports and imports ?
+ 50. What are the differences between create element vs clone element in react ?
+ 51. When to use useState and useReducer?
+ 52. What are protected routes in react ?
+ 53. Does React Router support a context menu?
