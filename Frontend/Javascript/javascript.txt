@@ -1,2 +1,43 @@
-hello
+1. What’s the difference between == and ===?
+2. Explain var, let, and const.
+3. What is hoisting?
+4. Explain closures with a simple example.
+5. What is the event loop in JavaScript?
+6. What are microtasks and macrotasks?
+7. What is this in JavaScript, and how does it change?
+8. Explain call, apply, and bind.
+9. What are arrow functions and how do they handle this?
+10. What is scope and the difference between function and block scope?
+11. What’s the difference between null and undefined?
+12. What are truthy and falsy values?
+13. Explain shallow copy vs deep copy.
+14. What are higher-order functions?
+15. What is debouncing and throttling?
+16. What’s the difference between for…in, for…of, and forEach?
+17. What are template literals in JS?
+18. Explain default parameters and rest/spread operators.
+19. What are pure functions and side effects?
+20. What is an IIFE (Immediately Invoked Function Expression)?
 
+💻 20 Coding Questions
+
+1. Implement a polyfill for Array.map().
+2. Write a function to reverse a string.
+3. Implement a debounce function.
+4. Implement a throttle function.
+5. Write a function to flatten a nested array.
+6. Write a function to find the largest number in an array.
+7. Write a function to find duplicates in an array.
+8. Write a function to remove falsy values from an array.
+9. Write a function to count character frequency in a string.
+10. Write a function to check if two strings are anagrams.
+11. Implement a deep clone of an object.
+12. Write a function to sum all numbers in an array.
+13. Implement a custom reduce() method.
+14. Write a function to capitalize the first letter of each word.
+15. Write a function to check if a string is a palindrome.
+16. Write a function to merge two sorted arrays.
+17. Implement a function to chunk an array.
+18. Write a function to find the intersection of two arrays.
+19. Write a function to remove duplicates from an array.
+20. Write a function to convert an object to a query string.
