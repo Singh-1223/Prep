@@ -55,3 +55,36 @@ How does React’s reconciliation algorithm decide what to re-render?
 Why can’t WeakMap keys be primitives?
 How does tree-shaking actually remove unused code?
 Why do hydration mismatches occur in SSR React apps?
+
+
+
+
+
+1. How does mark-and-sweep garbage collection free memory in JS engines?
+
+
+2. What are common memory leaks in front-end apps — and how do you detect them?
+
+
+3. How does the critical rendering path determine when pixels appear on screen?
+
+
+4. What’s the difference between reflow and repaint, and how can you minimize them?
+
+
+5. How does CORS preflight work, and what’s the role of SameSite cookies in security?
+
+
+6. How do service workers handle caching and background sync in PWAs?
+
+
+7. What are microtasks vs macrotasks, and how does that affect async execution order?
+
+
+8. How does hydration work in React after server-side rendering?
+
+
+9. What is tree-shaking, and why do side effects prevent it?
+
+
+10. How does virtual DOM reconciliation decide which elements to re-render?
