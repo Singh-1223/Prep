@@ -41,3 +41,17 @@
 18. Write a function to find the intersection of two arrays.
 19. Write a function to remove duplicates from an array.
 20. Write a function to convert an object to a query string.
+
+
+
+
+
+
+
+Why does typeof null return "object"?
+What happens if you call a function before it’s declared with let?
+What’s the difference between [] == ![] and [] === ![]?
+How does React’s reconciliation algorithm decide what to re-render?
+Why can’t WeakMap keys be primitives?
+How does tree-shaking actually remove unused code?
+Why do hydration mismatches occur in SSR React apps?
