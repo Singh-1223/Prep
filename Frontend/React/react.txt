@@ -100,3 +100,41 @@ Web security essentials like XSS, CSRF, and the usual suspects
  51. When to use useState and useReducer?
  52. What are protected routes in react ?
  53. Does React Router support a context menu?
+
+
+
+
+
+🧩 Application Architecture & Design
+Explain the architecture of your project — how microfrontends work in your app.
+What’s the difference between horizontal and vertical sliced microfrontends?
+How does Module Federation work in your single-page app?
+Who manages the routes if it’s a microfrontend SPA?
+How is session management handled across multiple microfrontends?
+⚛️ React Core Concepts
+Why did you choose React over Angular or Vue?
+How does one-way data flow provide an advantage over two-way binding?
+Explain React Reconciliation and the Fiber architecture.
+What new concepts were introduced in React 18/19 (like concurrent features)?
+Difference between SSR and CSR — and when to use which?
+Why do e-commerce apps often prefer Server-Side Rendering?
+What are React Server Components, and how can you do SSR in React?
+⚙️ Performance & Optimization
+How do you optimize a React application’s performance?
+What memoization techniques do you use (React.memo, useMemo, useCallback)?
+How would you handle re-renders in a large grid or data-heavy page?
+How do you track performance metrics and runtime errors in production?
+🧠 Design Patterns & Error Handling
+What React design patterns have you used (Container/Presenter, HOC, Render Props)?
+What are Run Boundaries or Error Boundaries — and why do we need them?
+If one component breaks, should your whole app break? How would you isolate it?
+How would you structure components following best practices (container vs presentational)?
+🔗 GraphQL & State Management
+What’s the difference between batching, introspection, and Apollo Federation?
+How do you handle caching in GraphQL (client-side and server-side)?
+Have you used Apollo Subscriptions for real-time updates?
+Difference between component-level state and global state using Redux Toolkit or Zustand.
+🧪 Testing
+How do you write test cases for components that make API calls?
+How would you mock fetch in your tests using Jest or React Testing Library?
+How do you test error scenarios and loading states?
