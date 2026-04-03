@@ -3,3 +3,5 @@
 
 
 claude quick dsa link :   https://claude.ai/share/2ac2422a-4b01-4578-b7b4-692c8f38daec
+
+Dsa in javascript quick practice : https://github.com/FrontendFreaks/DSA-in-JavaScript/tree/main
