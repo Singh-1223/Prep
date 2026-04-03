@@ -42,6 +42,7 @@
 19. Write a function to remove duplicates from an array.
 20. Write a function to convert an object to a query string.
 
+Deep copy vs shallow copy (Drive link , indepth example ) : https://drive.google.com/drive/u/1/folders/1e-qnb-76Ye2GezUewZBKMLIp_5t2_wo9
 21.  const original = {
         name: "Vaibhav",
         skills: ["React", "Node"]
