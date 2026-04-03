@@ -1,7 +1,7 @@
 1. What’s the difference between == and ===?
 2. Explain var, let, and const.
-3. What is hoisting?
-4. Explain closures with a simple example.
+3. What is hoisting? real usecase
+4. Explain closures with a simple example. real usecase
 5. What is the event loop in JavaScript?
 6. What are microtasks and macrotasks?
 7. What is this in JavaScript, and how does it change?
@@ -42,7 +42,18 @@
 19. Write a function to remove duplicates from an array.
 20. Write a function to convert an object to a query string.
 
-
+21.  const original = {
+        name: "Vaibhav",
+        skills: ["React", "Node"]
+    };
+    const shallow = { ...original };
+    // Changing a top-level property (Safe)
+    shallow.name = "Mishra"; 
+    // Changing a nested property (NOT Safe)
+    shallow.skills.push("Next.js");
+    console.log(original.name);   // "Vaibhav" (Original is unchanged)
+    console.log(original.skills); // ["React", "Node", "Next.js"] (Original is MODIFIED!)
+    why name not changed but skill changes, understand in depth , deep copy vs shallow copy , on array, object ,string, mutalbe vs immutavble, copy by value vs copy by reference , strurctruedclone etc.
 
 
 
