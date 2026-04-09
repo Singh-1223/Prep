@@ -9,3 +9,41 @@ questions :
 implement serach bar adn do debouncing in react
 form 
 carasoul , dropdoenw , sidebar etc, ===> custom
+
+
+Razorpay Interview Experience
+Compensation: ~30L CTC
+Position: SDE-1 (Frontend)
+Application Mode: Referral
+
+𝗥𝗼𝘂𝗻𝗱 𝟭: 𝗢𝗻𝗹𝗶𝗻𝗲 𝗔𝘀𝘀𝗲𝘀𝘀𝗺𝗲𝗻𝘁
+- Topics covered: sliding window, hashmaps, and string manipulation.
+- One problem around optimizing subarray traversal with a character frequency constraint.
+- One problem around finding the smallest valid substring satisfying multiple conditions.
+- Edge cases around empty inputs and large constraints were specifically tested.
+
+𝗥𝗼𝘂𝗻𝗱 𝟮: 𝗧𝗲𝗰𝗵𝗻𝗶𝗰𝗮𝗹 𝗣𝗵𝗼𝗻𝗲 𝗦𝗰𝗿𝗲𝗲𝗻
+- JS fundamentals with a live coding component, questions had a clear payments context.
+- Explain the prototype chain and how Razorpay's SDK can extend native objects without breaking merchant code.
+- Write a custom implementation of Function.prototype.bind.
+- Write a function that safely serializes user input before it touches the DOM, probing XSS awareness in payment forms.
+- Follow-ups:
+ - innerHTML vs createElement for script injection and why it matters on a checkout page.
+ - Implement debounce and explain the risks of wrong timing on a payment form.
+ - What happens between clicking "Pay Now" and the network request leaving the browser, event loop and microtasks included.
+
+𝗥𝗼𝘂𝗻𝗱 𝟯: 𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗖𝗼𝗱𝗶𝗻𝗴
+- Build an embeddable checkout widget dropped into any merchant site via a script tag.
+- Renders inside an iframe, accepts config (amount, merchant name, theme) via a JS API, emits success/failure events to the parent page via postMessage.
+- Follow-ups:
+ - How do you prevent a malicious parent page from spoofing a payment success event?
+ - Widget must load under 1 second on 3G, walk through bundle size and script loading strategy.
+ - What breaks if the merchant's CSP restricts inline scripts or frame-src?
+ - How do you expose razorpay.open() and razorpay.close() without polluting the merchant's global namespace?
+
+𝗥𝗼𝘂𝗻𝗱 𝟰: 𝗛𝗶𝗿𝗶𝗻𝗴 𝗠𝗮𝗻𝗮𝗴𝗲𝗿
+- Focused on reliability and ownership when money is on the line.
+- Walk through a bug you shipped to production, specifically what changed afterward.
+- If checkout goes down during a high-traffic sale, what does your first 10 minutes look like?
+- How does processing millions of transactions daily change the way you think about a frontend change?
+- Closed with a debate on what "zero downtime" actually means for a frontend engineer.v
