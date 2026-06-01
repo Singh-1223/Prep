@@ -47,3 +47,52 @@ Application Mode: Referral
 - If checkout goes down during a high-traffic sale, what does your first 10 minutes look like?
 - How does processing millions of transactions daily change the way you think about a frontend change?
 - Closed with a debate on what "zero downtime" actually means for a frontend engineer.v
+
+
+
+
+
+
+
+𝗣𝗵𝗼𝗻𝗲𝗣𝗲 𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲 | 𝗨𝗜 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿 𝗜𝗜 | 𝗕𝗮𝗻𝗴𝗮𝗹𝗼𝗿𝗲 | 𝟯𝟱 𝗟𝗣𝗔
+A colleague cleared PhonePe's frontend loop last month via Naukri.
+4 rounds. Process took 3 weeks from screening to offer.
+Here is the full breakdown 👇
+━━━━━━━━━━━━━━━━━━━━
+𝗥𝗼𝘂𝗻𝗱 𝟭 ▸ DSA (60 mins) | Easy to Medium
+▸ Best Time to Buy and Sell Stock (Easy)
+▸ Longest Substring Without Repeating Characters (Medium)
+▸ Two Sum with sorted array, two pointer approach (Easy)
+After every solution: "What is the time complexity? Can you optimize further?"
+💡 Write brute force first, then optimize out loud. They score your thinking, not just the answer.
+━━━━━━━━━━━━━━━━━━━━
+𝗥𝗼𝘂𝗻𝗱 𝟮 ▸ JavaScript Deep Dive (60 mins) | Medium to Hard
+This is where most people got filtered.
+▸ What does this print and why?
+ for (var i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 1000)
+ }
+▸ Fix it two ways (let vs IIFE)
+▸ Write debounce from scratch, no libraries
+▸ Write Promise.all polyfill
+▸ Explain event loop with a real example
+PhonePe is a payments app. Security came up too.
+▸ How do you prevent XSS in a form input?
+▸ What is a Content Security Policy header and why does it matter?
+💡 Security is not a bonus topic here. Every frontend candidate gets asked this.
+━━━━━━━━━━━━━━━━━━━━
+𝗥𝗼𝘂𝗻𝗱 𝟯 ▸ Machine Coding (75 mins) | Hard
+Build a product search page in React from scratch.
+▸ Fetch data from a mock API on load
+▸ Debounced search input, no useEffect mistakes
+▸ Filter by category, paginate results 10 per page
+▸ Handle loading state and error state cleanly
+No third party state libraries. Only React.
+The interviewer watched how state was structured before a single line was written.
+━━━━━━━━━━━━━━━━━━━━
+𝗥𝗼𝘂𝗻𝗱 𝟰 ▸ Managerial (45 mins)
+Not just "tell me about yourself."
+▸ Walk me through a frontend bug you fixed in production
+▸ How do you decide when to refactor vs ship?
+▸ Your team disagrees on an approach. What do you do?
+▸ Design a component library for a fintech product at scale
