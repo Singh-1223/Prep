@@ -56,9 +56,7 @@ Deep copy vs shallow copy (Drive link , indepth example ) : https://drive.google
     console.log(original.skills); // ["React", "Node", "Next.js"] (Original is MODIFIED!)
     why name not changed but skill changes, understand in depth , deep copy vs shallow copy , on array, object ,string, mutalbe vs immutavble, copy by value vs copy by reference , strurctruedclone etc.
 
-
-
-
+******* Implement caching in js : fully , memorize function in js with js syntax; ********
 
 Why does typeof null return "object"?
 What happens if you call a function before it’s declared with let?
